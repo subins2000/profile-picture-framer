@@ -1,2 +1,3 @@
-# profile-picture-framer
-A profile picture framer web app http://subinsb.com/create-profile-picture-framer-web-app
+# Profile Picture Framer
+
+A profile picture framer web app. [Tutorial & HowTo](http://subinsb.com/create-profile-picture-framer-web-app)
