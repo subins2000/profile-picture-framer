@@ -11,14 +11,18 @@ if(isset($_FILES["image"])){
     return $str;
   }
 
+  /**
+   * If image is not valid, output a default image
+   * @var [type]
+   */
   $sourceImg = @imagecreatefromstring(@file_get_contents($_FILES["image"]["tmp_name"]));
   if ($sourceImg === false){
-    echo "image/og-logo.png";
+    echo "images/default-profile-pic.png";
     exit;
   }
 
   $image = makeDP($_FILES["image"]["tmp_name"], (
-    isset($_POST["design"]) ? $_POST["design"] : null
+    isset($_POST["design"]) ? $_POST["design"] : 0
   ));
 
   $loc = "uploads/" . rand_string(10) . ".png";
