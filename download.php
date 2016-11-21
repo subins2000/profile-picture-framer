@@ -23,6 +23,9 @@
         <p>
           <a href="index.php"><button id="download">Create Another Profile Picture!</button></a>
         </p>
+        <?php
+        require_once __DIR__ . "/footer.php";
+        ?>
       </div>
     </div>
   </body>

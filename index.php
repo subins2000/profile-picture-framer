@@ -36,8 +36,9 @@
           <img class="design" src="frames/frame-1.png" data-design="1" />
           <img class="design" src="frames/frame-2.png" data-design="2" />
         </div>
-        <p>Created by <a href="http://subinsb.com">Subin Siby</a>.</p>
-        <p>Designs By <a href="https://www.facebook.com/vikaskkunjumon">Vikas</a>, <a href="https://www.facebook.com/maneesh.redline">Maneesh</a></p>
+        <?php
+        require_once __DIR__ . "/footer.php";
+        ?>
       </div>
     </div>
   </body>
