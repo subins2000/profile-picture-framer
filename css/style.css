@@ -8,7 +8,7 @@ html, body{
 }
 #wrapper{
 	min-height: 100%;
-  background-image: url(../image/bg.jpg);
+  background-image: url(../images/bg.jpg);
 	background-color: #092e7b;
 	text-align: center;
 }
