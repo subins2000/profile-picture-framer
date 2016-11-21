@@ -19,7 +19,7 @@
           <div id="crop-area">
             <img src="http://demos.subinsb.com/isl-profile-pic/image/person.png" id="profile-pic" />
           </div>
-          <img src="frames/frame-1.png" id="fg" data-design="" />
+          <img src="frames/frame-1.png" id="fg" data-design="0" />
         </div>
         <p>
           <button id="download" disabled>Download Profile Picture</button>
@@ -36,6 +36,8 @@
           <img class="design" src="frames/frame-1.png" data-design="1" />
           <img class="design" src="frames/frame-2.png" data-design="2" />
         </div>
+        <p>Created by <a href="http://subinsb.com">Subin Siby</a>.</p>
+        <p>Designs By <a href="https://www.facebook.com/vikaskkunjumon">Vikas</a>, <a href="https://www.facebook.com/maneesh.redline">Maneesh</a></p>
       </div>
     </div>
   </body>
